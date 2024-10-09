@@ -36,7 +36,7 @@ target_link_libraries(PSO-X PRIVATE
 # add_custom_command(
 #     TARGET PSO-X POST_BUILD
 #     COMMAND ${CMAKE_COMMAND} -E copy_directory
-#     ${CMAKE_SOURCE_DIR}/supportData $<TARGET_FILE_DIR:PSO-X>/../supportData
+#     ${CMAKE_SOURCE_DIR}/supportData $<TARGET_FILE_DIR:PSO-X>/supportData
 # )
 
 # Add any additional libraries if required

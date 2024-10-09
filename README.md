@@ -8,6 +8,7 @@
 * **CMake** - on Linux could be install by `sudo apt-get install cmake` 
 
 ## Build:
-* automated by `run.sh` script
+* automated by run `./run.sh`
+
 ## Run:
-* final program could be run by `./buil/bin/PSO-X`
+* builded program could be run by `./build/bin/PSO-X <your parametes>`

@@ -1083,10 +1083,10 @@ int main(int argc, char *argv[])
 	// Get the configuration parameters
 	config = new Configuration();
 
-	// if (!config->getConfig(argc, argv))
-	// {
-	// 	exit(-1);
-	// }
+	if (!config->getConfig(argc, argv))
+	{
+		exit(-1);
+	}
 
 	// Start timer
 	double time_taken;
